@@ -13,38 +13,7 @@ import { Stack, Animation } from "@devexpress/dx-react-chart";
 // import "./bar.scss"
 // import { energyConsumption as data } from '../../../demo-data/data-vizualization';
 
-export const data = [
-  {
-    country: "USA",
-    hydro: 1,
-    oil: 1.1,
-  },
-  {
-    country: "China",
-    hydro: 1,
-    oil: 0.6,
-  },
-  {
-    country: "Russia",
-    hydro: 1,
-    oil: 0.2,
-  },
-  {
-    country: "Japan",
-    hydro: 0.1,
-    oil: 1.6,
-  },
-  {
-    country: "India",
-    hydro: 0,
-    oil: 0.,
-  },
-  {
-    country: "Germany",
-    hydro: 1,
-    oil: 1.6,
-  },
-];
+
 
 const legendStyles = () => ({
   root: {
